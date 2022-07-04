@@ -16,11 +16,11 @@ else:
     print("FIRE")
 
 # infinite loop
-while True:
-        time.sleep(1)
-        if previous_value != GPIO.input(FLAME_SENSOR_PIN):
-            if GPIO.input(FLAME_SENSOR_PIN) == 1:
-                print("CLEAR")
-            else:
-                print("FIRE")
-            previous_value = GPIO.input(FLAME_SENSOR_PIN)
+#while True:
+#        time.sleep(1)
+#        if previous_value != GPIO.input(FLAME_SENSOR_PIN):
+#            if GPIO.input(FLAME_SENSOR_PIN) == 1:
+#                print("CLEAR")
+#            else:
+#                print("FIRE")
+#            previous_value = GPIO.input(FLAME_SENSOR_PIN)
